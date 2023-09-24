@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SNS Profile</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .white-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0.5px 0.5px 2px 1px #eee;
+    }
+
+    .btn-primary {
+      background-color: #6fbaf8;
+      border: none;
+    }
+
+    .pill {
+      display: inline-block;
+      border: 1px solid #aaa;
+      border-radius: 50px;
+      padding: 5px 12px;
+      text-align: center;
+      margin-right: 2px;
+      margin-top: 5px;
+    }
+    .friends {
+      border: 1px solid #aaa;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    @media screen and (max-width : 768px) {
+      .bd-left {
+        border-left: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color: #f7f9fc;">
+  <div class="container">
+    <div class="white-box mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img src="img/profile-pic.png">
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <h3 class="mb-0">Gosic Kim</h3>
+              <p class="mb-1">Front-end Designer</p>
+              <i class="fa-solid fa-location-dot mb-3" style="color: #6fbaf8;"> 경기 의정부</i>
+              <button class="btn btn-primary d-block">Contact</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-1">
+          <div class="row ps-5 bd-left" style="border-left: 1px solid #aaa; ">
+            <div class="col-6">
+              <p class="fw-semibold">Location</p>
+            </div>
+            <div class="col-6">
+              <p>경기 의정부시</p>
+            </div>
+            <div class="col-6">
+              <p class="fw-semibold">Age</p>
+            </div>
+            <div class="col-6">
+              <p>1세</p>
+            </div>
+            <div class="col-6">
+              <p class="fw-semibold">Experience</p>
+            </div>
+            <div class="col-6">
+              <p>신입</p>
+            </div>
+            <div class="col-6">
+              <p class="fw-semibold">School</p>
+            </div>
+            <div class="col-6">
+              <p>경기유치원</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-2">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="white-box">
+          <h4>Works</h4>
+          <p>lorem ipsum</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="white-box mb-2 mt-2">
+          <h4>About</h4>
+          <p>lorem ipsum</p>
+        </div>
+        <div class="white-box">
+          <h4>Skills</h4>
+          <span class="pill">HMTL</span>
+          <span class="pill">CSS</span>
+          <span class="pill">jQuery</span>
+          <span class="pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="white-box mt-2">
+          <h4>Works</h4>
+          <p>lorem ipsum</p>
+        </div>
+        <div class="d-flex align-items-center mt-2 white-box" style="border: 5px solid #fff; background-color: #f7f9fc;">
+          <div class="flex-shrink-0">
+            <img src="img/profile-pic.png" width="80px">
+          </div>
+          <div class="flex-grow-1 ms-3" style="font-size: 12px;">
+            <h3 class="fs-6 m-1">Hamtol Kim</h3>
+            <p class="m-1">Web Designer</p>
+            <i class="fa-solid fa-location-dot">서울 강동구</i>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-2 white-box" style="border: 5px solid #fff; background-color: #f7f9fc;">
+          <div class="flex-shrink-0">
+            <img src="img/profile-pic.png" width="80px">
+          </div>
+          <div class="flex-grow-1 ms-3" style="font-size: 12px;">
+            <h3 class="fs-6 m-1">Mirea Yoon</h3>
+            <p class="m-1">UI/UX Designer</p>
+            <i class="fa-solid fa-location-dot">전라도 목포시</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
